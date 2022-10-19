@@ -1,0 +1,153 @@
+html, body {
+    background: linear-gradient(to bottom right, blue, pink);
+    color: rgb(0.3);
+  }
+  
+  img {
+    border-radius: 6em;
+    width: 140px;
+    height: 130px;
+    margin-right: 4px;
+  }
+
+  header{
+    height: 130px;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #0e0e0e;
+    display: table-cell;
+    width: 10%;
+  }
+
+  nav{
+    border: 1px solid #0e0e0e;
+    background-color: white;
+    display: table-cell;
+    width: 10%;
+  }
+
+
+ /* ======================Sections =============================*/
+
+  #section-one{
+    border: 1px solid #0c0e0c;
+    background-color: #609549;
+    width: 30%;
+    height:17%;
+    display: inline-block;
+    margin-left: 56.9px;
+  }
+
+  #section-two{
+    border: 1px solid #0e0e0e;
+    margin-left: 321px;
+    width: 30%;
+    height:17%;
+    display: table-cell;
+    background-color: rgb(175, 237, 184);
+  }
+
+  #section-three{
+    border: 6px solid #d1d80c;
+    margin-left: 56.9px;
+    height:17%;
+    display: inline-block;
+  }
+
+  #section-four{
+    border: 1px solid #8f1212;
+    margin-left: 321px;
+    width: 30%;
+    height:17%;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+
+  /* ======================Text selectors=============================*/
+  p {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #0fff;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+  }
+
+  a{
+    font-family: "Roboto", sans-serif;
+    color: #aee04b;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 40px;
+  }
+  
+  h1 {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h3 {
+    color: rgb(6, 6, 6);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h5 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+  }
+  
+  li {
+    font-family: "Roboto", sans-serif;
+    color: #0a0b0b;
+  }
+  
+  hr {
+    border-top-color: orange;
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 10px;
+    width: 5%;
+  }
+
+
+/* ======================Table selectors=============================*/
+
+  table {
+    white-space: 20;
+  }
+
+  #table-one{
+    border: 1px;
+    padding: 2px 8px 0;
+    text-align: left;
+  }
+
+  #table-two{
+    border: 1px solid rgb(242, 209, 163);
+    text-align: right;
+  }
+  
+  th {
+    font-family: "Roboto", sans-serif;
+    color: black;
+  }
+  
+  .row {
+    border: 1px solid rgb(200, 9, 9);
+    font-family: "Roboto", sans-serif;
+    color: black;
+  }
+
+  
+/* ====================== Footer =============================*/
+
+footer{
+  border: 1px solid #0e0e0e;
+  background-color: whitesmoke;
+  display: table-cell;
+  width: 10%;
+  height: 60px;
+  border-radius: 0px 0px 8px 8px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h3>Contact Information</h3>
+    <p>Jon Carriage<br>
+      Ithaca, NY 14853<br>
+      (607)205-0100
+    </p>
+    <form action="mailto:rsingh500@hotmail.com" method="post" enctype="text/plain">
+      <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="form-example">
+        <label>Tell us your story:</label>
+      </div>
+      <div class="form-example">
+        <textarea id="story" name="story" rows="5" cols="33">It was a dark and stormy night...
+        </textarea>
+      </div>
+      <div class="form-example">
+        <input type="submit" value="Subscribe!">
+      </div>
+    </form>
+</body>
+</html>
